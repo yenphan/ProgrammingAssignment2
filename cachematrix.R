@@ -8,7 +8,6 @@
 makeCacheMatrix <- function(x = matrix()) {
     # inverse will store the cached inverse matrix
     inverse <- NULL
-    # Setter for the matrix
     set <- function(y) {
         x <<- y
         inverse <<- NULL
